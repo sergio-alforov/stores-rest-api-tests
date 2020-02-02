@@ -1,0 +1,10 @@
+languege: python
+python:
+  - "3.6"
+  - "nightly"
+
+install:
+  - "pip install pytest"
+  - "pip install requirements.txt"
+
+script: python -m pytest tests/
